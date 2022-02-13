@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto','Montserrat', sans-serif;
+}
+
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.customHeight {
+  max-width: 90vw;
+  height: 50vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.navFont{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+}
+
+.customColor {
+  background: linear-gradient(45deg, #f1f1f1 , #fffbf4);
+}
+
+.search {
+  position: relative;
+  max-width: 25%;
+}
+
+#search_icon {
+  position: absolute;
+  left: 90%;
+  top: 15%;
+}
+
+#loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#invalid {
+  color: red;
+  font-family: Verdana, sans-serif;
+  font-size: large;
+  margin-top: 1rem;
+}
